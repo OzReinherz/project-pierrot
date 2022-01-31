@@ -1,0 +1,200 @@
+:root {
+    --bg-background: white;
+    --anl-seconday: rgb(22 40 59 / 70%);
+    --anl-primary-backgroud: rgb(2 9 17);
+    --anl-title-text: #9fadbd;
+    --anl-title-text-2: #777a9e;
+    --anl-card-color: rgb(11 21 32);
+    --menu-nav-avid-color: #152232e3;
+    --avid-tooltip-game-color: rgb(23, 46, 71);
+    --color-dropdawn-personalized: var(--anl-seconday);
+    --tooltip-text-color-avid: #6b93c1;
+}
+
+@keyframes opacity-animation {
+    from {
+        opacity: 0;
+        filter: blur(10px);
+    }
+    to {
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+p {
+    margin-bottom: 0!important;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.fs-7 {
+    font-size: small;
+}
+
+.fs-8 {
+    font-size: 0.8rem !important;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-5 {
+    width: 5%;
+}
+
+.right-0 {
+    right: 0!important;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.left-50 {
+    left: 50%!important;
+}
+
+.pointer-events-none {
+    pointer-events: none;
+}
+
+.links {
+    color: #5187d8;
+}
+
+.m-bottom {
+    margin-bottom: 0!important;
+}
+
+.padding-1rem {
+    padding: 1rem;
+}
+
+.color-gray-600 {
+    color: var(--bs-gray-600);
+}
+
+.color-white {
+    color: white;
+}
+
+.min-width-350 {
+    min-width: 350px;
+}
+
+.margin-1 {
+    margin: 1rem;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.d-inline-grid {
+    display: inline-grid;
+    display: -ms-inline-grid;
+}
+
+.text-shadow-0 {
+    text-shadow: 0 0 10px black;
+}
+
+.title-review-color {
+    color: #cbcbcb;
+}
+
+.genre-bg-action {
+    background: rgb(12, 12, 37);
+    color: rgb(143 143 235);
+}
+
+.genre-bg-adventure {
+    background: #114dbb;
+    color: #7aa4f1;
+}
+
+.genre-bg-jrpg {
+    background: #11abbb;
+    color: #04373c;
+}
+
+.genre-bg-rpg {
+    background: #11bb65;
+    color: #032e18;
+}
+
+.genre-bg-fps {
+    background: #89bb11;
+    color: #2d3e03;
+}
+
+.genre-bg-anime {
+    background: #deeb1c;
+    color: #2c2e06;
+}
+
+/* Font Family Section */
+
+.ff-ABeeZee {
+    font-family: 'ABeeZee';
+}
+
+@keyframes tooltip-game-cover-right-animation {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(105%);
+    }
+}
+
+.tooltip-game-cover-right > div {
+    animation: tooltip-game-cover-right-animation 500ms ease-in-out;
+    transform: translateX(105%);
+}
+
+@keyframes tooltip-game-cover-left-animation {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-55%);
+    }
+}
+
+.tooltip-game-cover-left > div {
+    transform: translateX(-55%);
+    animation: tooltip-game-cover-left-animation 500ms ease-in-out;
+}
+
+.tooltip-text-color-0 {
+    color: var(--tooltip-text-color-avid);
+}
+
+.anl-title-text-0 {
+    color: var(--anl-title-text);
+}
+
+.anl-title-text-1 {
+    color: var(--anl-title-text-2);
+}
